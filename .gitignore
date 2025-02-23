@@ -1,0 +1,13 @@
+# Gradleのビルド成果物
+/build/
+/.gradle/
+
+# IntelliJ関連のファイル
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db

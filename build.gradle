@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '23'
+targetCompatibility = '23'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // ロギング
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    implementation 'ch.qos.logback:logback-classic:1.4.12'
+}
+
+application {
+    mainClass = 'chip8.Main'
+}
